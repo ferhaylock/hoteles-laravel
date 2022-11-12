@@ -10,6 +10,7 @@
         <link rel="manifest" href="site.webmanifest">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
+		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
             <link rel="stylesheet" href="assets/css/gijgo.css">
@@ -48,16 +49,15 @@
                         <!-- logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                               <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                     <div class="col-xl-8 col-lg-8">
                             <!-- main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav>
-                                <ul id="navigation">                                                                                                                                     
-                                        <li><a href="">Inicio</a></li>
-                                  
+                                    <ul id="navigation">                                                                                                                                     
+                                        <li><a style="color: #DDA62B;" href="index.html">Inicio</a></li>
                                         <li><a href="servicios.html">Servicio</a></li>
                                         <li><a href="Habitaciones.html">Habitaciones</a>
                                         <li><a href="Contacto.html">Contacto</a></li>
@@ -68,7 +68,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <!-- header-btn -->
                             <div class="header-btn">
-                                <a href="#" class="btn btn1 d-none d-lg-block ">Login</a>
+                                <a href="hoteles.html" class="btn btn1 d-none d-lg-block ">Login</a>
                             </div>
                         </div>
                         <!-- Mobile Menu -->
@@ -92,8 +92,8 @@
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
                                 <div class="h1-slider-caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".4s">top hotel in the city</h1>
-                                    <h3 data-animation="fadeInDown" data-delay=".4s">Hotel & Resourt</h3>
+                                    <h1 data-animation="fadeInUp" data-delay=".4s"> Gran hotel en Colombia</h1>
+                                    <h3 data-animation="fadeInDown" data-delay=".4s">Hotel & restaurante</h3>
                                 </div>
                             </div>
                         </div>
@@ -104,8 +104,8 @@
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
                                 <div class="h1-slider-caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".4s">top hotel in the city</h1>
-                                    <h3 data-animation="fadeInDown" data-delay=".4s">Hotel & Resourt</h3>
+                                    <h1 data-animation="fadeInUp" data-delay=".4s"> Gran hotel en Colombia</h1>
+                                    <h3 data-animation="fadeInDown" data-delay=".4s">Hotel & restaurante</h3>
                                 </div>
                             </div>
                         </div>
@@ -116,8 +116,8 @@
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
                                 <div class="h1-slider-caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".4s">top hotel in the city</h1>
-                                    <h3 data-animation="fadeInDown" data-delay=".4s">Hotel & Resourt</h3>
+                                    <h1 data-animation="fadeInUp" data-delay=".4s"> Gran hotel en Colombia</h1>
+                                    <h3 data-animation="fadeInDown" data-delay=".4s">Hotel & restaurante</h3>
                                 </div>
                             </div>
                         </div>
@@ -134,12 +134,21 @@
                <div class="col-12">
                 <form action="">
                 <div class="booking-wrap d-flex justify-content-between align-items-center">
-                 
                     <!-- select in date -->
                     <div class="single-select-box mb-30">
                         <!-- select out date -->
                         <div class="boking-tittle">
-                            <span> Check In Date:</span>
+                            <span> Localizacion</span>
+                        </div>
+                        <div class="boking-datepicker">
+                            <input id="datepicker"  placeholder="Monteria" /><i class="ti-search"></i>
+                        </div>
+                   </div>
+                    <!-- select in date -->
+                    <div class="single-select-box mb-30">
+                        <!-- select out date -->
+                        <div class="boking-tittle">
+                            <span> Fecha entrada:</span>
                         </div>
                         <div class="boking-datepicker">
                             <input id="datepicker1"  placeholder="10/12/2020" />
@@ -149,16 +158,17 @@
                     <div class="single-select-box mb-30">
                         <!-- select out date -->
                         <div class="boking-tittle">
-                            <span>Check OutDate:</span>
+                            <span>Fecha salida:</span>
                         </div>
                         <div class="boking-datepicker">
                             <input id="datepicker2"  placeholder="12/12/2020" />
                         </div>
                    </div>
+                   
                     <!-- Single Select Box -->
                     <div class="single-select-box mb-30">
                         <div class="boking-tittle">
-                            <span>Adults:</span>
+                            <span>Adultos:</span>
                         </div>
                         <div class="select-this">
                             <form action="#">
@@ -176,7 +186,7 @@
                     <!-- Single Select Box -->
                     <div class="single-select-box mb-30">
                         <div class="boking-tittle">
-                            <span>Children:</span>
+                            <span>Niños:</span>
                         </div>
                         <div class="select-this">
                             <form action="#">
@@ -211,7 +221,7 @@
                    </div>
                     <!-- Single Select Box -->
                     <div class="single-select-box pt-45 mb-30">
-                        <a href="#" class="btn select-btn">Book Now</a>
+                        <a href="#" class="btn select-btn">Reservar</a>
                    </div>
                
 
@@ -232,18 +242,18 @@
                             <img src="assets/img/customer/customar1.png" class="customar-img1" alt="">
                             <img src="assets/img/customer/customar2.png" class="customar-img2" alt="">
                             <div class="service-experience heartbeat">
-                                <h3>25 Years of Service<br>Experience</h3>
+                                <h3>Grandes Habitaciones</h3>
                             </div>
                         </div>
                    </div>
                     <div class=" col-xl-4 col-lg-4">
                         <div class="customer-caption">
-                            <span>About our company</span>
-                            <h2>Make the customer the hero of your story</h2>
+                           
+                            <h2>Historia</h2>
                             <div class="caption-details">
                                 <p class="pera-dtails">Lorem ipsum dolor sit amet, consectetur adipisic- ing elit, sed do eiusmod tempor inc. </p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
-                                <a href="#" class="btn more-btn1">Contacto <i class="ti-angle-right"></i> </a>
+                                <a href="#" class="btn more-btn1">Leer más<i class="ti-angle-right"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -251,6 +261,8 @@
             </div>
         </section>
         <!-- Make customer End-->
+
+
 
         <!-- Room Start -->
         <section class="room-area">
@@ -260,9 +272,9 @@
                         <!--font-back-tittle  -->
                         <div class="font-back-tittle mb-45">
                             <div class="archivment-front">
-                                <h3>Our Habitaciones</h3>
+                                <h3>Nuestra Habitaciones</h3>
                             </div>
-                            <h3 class="archivment-back">Our Habitaciones</h3>
+                            <h3 class="archivment-back">Nuestra Habitaciones</h3>
                         </div>
                     </div>
                 </div>
@@ -274,9 +286,9 @@
                                <a href="Habitaciones.html"><img src="assets/img/Habitaciones/room1.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="Habitaciones.html">Classic Double Bed</a></h3>
+                                <h3><a href="Habitaciones.html">Suite</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
+                                    <span><u>$</u>350.000<span>/ la noche</span></span>
                                 </div>
                             </div>
                         </div>
@@ -288,9 +300,9 @@
                                <a href="Habitaciones.html"><img src="assets/img/Habitaciones/room2.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="Habitaciones.html">Classic Double Bed</a></h3>
+                                <h3><a href="Habitaciones.html">Estandar</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
+                                    <span><u>$</u>200.000<span>/ la noche</span></span>
                                 </div>
                             </div>
                         </div>
@@ -299,58 +311,17 @@
                         <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
-                               <a href="Habitaciones.html"> <img src="assets/img/Habitaciones/room3.jpg" alt=""></a>
+                               <a href="Habitaciones.html"> <img src="assets/img/Habitaciones/room4.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="Habitaciones.html">Classic Double Bed</a></h3>
+                                <h3><a href="Habitaciones.html">Junior</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
+                                    <span><u>$</u>100.000<span>/ la noche</span></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
-                        <div class="single-room mb-50">
-                            <div class="room-img">
-                                <a href="Habitaciones.html"><img src="assets/img/Habitaciones/room4.jpg" alt=""></a>
-                            </div>
-                            <div class="room-caption">
-                                <h3><a href="Habitaciones.html">Classic Double Bed</a></h3>
-                                <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
-                        <div class="single-room mb-50">
-                            <div class="room-img">
-                                <a href="Habitaciones.html"><img src="assets/img/Habitaciones/room5.jpg" alt=""></a>
-                            </div>
-                            <div class="room-caption">
-                                <h3><a href="Habitaciones.html">Classic Double Bed</a></h3>
-                                <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
-                        <div class="single-room mb-50">
-                            <div class="room-img">
-                               <a href="Habitaciones.html"> <img src="assets/img/Habitaciones/room6.jpg" alt=""></a>
-                            </div>
-                            <div class="room-caption">
-                                <h3><a href="Habitaciones.html">Classic Double Bed</a></h3>
-                                <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                 
                 </div>
                 <div class="row justify-content-center">
                     <div class="room-btn pt-70">
@@ -362,6 +333,8 @@
         </section>
         <!-- Room End -->
 
+        
+
         <!-- Dining Start -->
         <div class="dining-area dining-padding-top">
             <!-- Single Left img -->
@@ -370,25 +343,39 @@
                     <div class="row justify-content-end">
                         <div class="col-lg-8 col-md-8">
                             <div class="dining-caption">
-                                <span>NUESTRO RESTAURANTE</span>
+                                <span>NUESTRO RESTAURANTE SEDE PRINCIPAL</span>
                                 <h3>Comidas y bebidas</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
-                                <a href="#" class="btn border-btn">Contacto <i class="ti-angle-right"></i> </a>
+                                
+                                <a href="#" class="btn border-btn">Leer más<i class="ti-angle-right"></i> </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div> 
             <!-- single Right img -->
-            <div class="single-dining-area right-img">
+            <div class="single-dining-area bar-img">
                 <div class="container">
                     <div class="row justify-content-start">
                         <div class="col-lg-8 col-md-8">
                             <div class="dining-caption text-right">
-                                <span>Our Pool</span>
-                                <h3>Swimming Pool</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
-                                <a href="#" class="btn border-btn">Contacto  <i class="ti-angle-right"></i></a>
+                                <span>NUESTRO BAR SEDE PRINCIPAL</span>
+                                <h3>Bar</h3>
+                               
+                                <a href="#" class="btn border-btn">Leer más<i class="ti-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="single-dining-area left1-img">
+                <div class="container">
+                    <div class="row justify-content-end">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="dining-caption">
+                                <span>NUESTRO PISCINA SEDE PRINCIPAL</span>
+                                <h3>Piscina</h3>
+                                
+                                <a href="#" class="btn border-btn">Leer más<i class="ti-angle-right"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -397,7 +384,7 @@
         </div>
         <!-- Dining End -->
 
-      
+
         <!-- Gallery img Start-->
         <div class="gallery-area fix">
             <div class="container-fluid p-0">
@@ -429,17 +416,16 @@
                       <div class="single-footer-caption mb-30">
                          <!-- logo -->
                          <div class="footer-logo">
-                           <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                           <a href="index.html"><img src="assets/img/logo/logo_footer.svg" alt=""></a>
                          </div>
                          <div class="footer-social footer-social2">
                              <a href="#"><i class="fab fa-facebook-f"></i></a>
                              <a href="#"><i class="fab fa-twitter"></i></a>
-                             <a href="#"><i class="fas fa-globe"></i></a>
-                             <a href="#"><i class="fab fa-behance"></i></a>
+                             <a href="#"><i class="fab fa-instagram"></i></a>
                          </div>
                          <div class="footer-pera">
                               <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                          </div>
                       </div>
@@ -447,12 +433,12 @@
                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-5">
                        <div class="single-footer-caption mb-30">
                            <div class="footer-tittle">
-                               <h4>Quick Links</h4>
+                               <h4>Enlaces rapidos</h4>
                                <ul>
-                                   <li><a href="#">About Mariana</a></li>
-                                   <li><a href="#">Our Best Habitaciones</a></li>
-                                   <li><a href="#">Our Photo Gellary</a></li>
-                                   <li><a href="#">Pool Service</a></li>
+                                   <li><a href="#">Historia</a></li>
+                                   <li><a href="#">Mejores Habitaciones</a></li>
+                                   <li><a href="#">Galeria de fotos</a></li>
+                                   <li><a href="#">Servicios</a></li>
                                </ul>
                            </div>
                        </div>
@@ -460,11 +446,11 @@
                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
                        <div class="single-footer-caption mb-30">
                            <div class="footer-tittle">
-                               <h4>Reservations</h4>
+                               <h4>Reservaciones</h4>
                                <ul>
-                                   <li><a href="#">Tel: 345 5667 889</a></li>
-                                   <li><a href="#">Skype: Marianabooking</a></li>
-                                   <li><a href="#">reservations@hotelriver.com</a></li>
+                                   <li><a href="#">Tel: 300 454 8373</a></li>
+                                  
+                                   <li><a href="#">reservations@hotelsantuario.com</a></li>
                                </ul>
                            </div>
                        </div>
@@ -472,11 +458,8 @@
                    <div class="col-xl-3 col-lg-3 col-md-4  col-sm-5">
                        <div class="single-footer-caption mb-30">
                            <div class="footer-tittle">
-                               <h4>Our Location</h4>
-                               <ul>
-                                   <li><a href="#">198 West 21th Street,</a></li>
-                                   <li><a href="#">Suite 721 New York NY 10016</a></li>
-                               </ul>
+                               <h4>Contacto</h4>
+                            
                                <!-- Form -->
                                 <div class="footer-form" >
                                     <div id="mc_embed_signup">
@@ -484,10 +467,10 @@
                                         method="get" class="subscribe_form relative mail_part">
                                             <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
                                             class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = ' Email Address '">
+                                            onblur="this.placeholder = ' Correo'">
                                             <div class="form-icon">
                                               <button type="submit" name="submit" id="newsletter-submit"
-                                              class="email_icon newsletter-submit button-contactForm"><img src="assets/img/logo/form-iocn.jpg" alt=""></button>
+                                              class="email_icon newsletter-submit button-ContactoForm"><img src="assets/img/logo/form-iocn.jpg" alt=""></button>
                                             </div>
                                             <div class="mt-10 info"></div>
                                         </form>
@@ -529,8 +512,8 @@
         <script src="./assets/js/jquery.nice-select.min.js"></script>
 		<script src="./assets/js/jquery.sticky.js"></script>
         
-        <!-- contact js -->
-        <script src="./assets/js/contact.js"></script>
+        <!-- Contacto js -->
+        <script src="./assets/js/Contacto.js"></script>
         <script src="./assets/js/jquery.form.js"></script>
         <script src="./assets/js/jquery.validate.min.js"></script>
         <script src="./assets/js/mail-script.js"></script>
